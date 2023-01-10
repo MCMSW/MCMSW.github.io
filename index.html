@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mobile Car Mechanic South West</title>
+    <meta name="description" content="Mobile Car Mechanic South West delivers professional mechanical services to the South West right on your driveway. Enquire today to book your appointment!" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="\files\stylesheets\style.css" type="text/css" />
+    <link rel="stylesheet" href="\files\stylesheets\animations.css" type="text/css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="\files\favicon\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="\files\favicon\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="\files\favicon\favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="\files\favicon\safari-pinned-tab.svg" color="#38a2ef">
+    <script defer src="\files\scripts\app.js"></script>
+  </head>
+  <body onload="clearForm()">
+    <!-- gradient section -->
+    <div id="navHeroContainer">
+    <div class="content contentNoPadding">
+    <!-- nav bar -->
+    <nav>
+      <h2 id="navHeading" class="fadeIn">Mobile Car Mechanic South West</h2>
+    </nav>
+    <!-- hero section -->
+    <section id="hero">
+        <div id="titlesColumn" class="fadeIn">
+          <h2 id="heroHeading" class="heading">Car servicing and repairs on your driveway!</h1>
+          <p id="heroSentence" class="sentence">Mobile Car Mechanic South West delivers professional mechanical services to the South West right on your driveway. Enquire today to book your appointment!  </p>
+          <div class="flex" class="fadeIn">
+            <a id="heroLink" class="ctaLink" href="#" onclick="scrollToElement('contact', 50)"><h2>Get in Touch</h2></a>
+          </div>
+        </div>
+        <div id="imageColumn" class="fadeIn">
+          <img class="fadeIn" id="heroImg" alt="Hero Image" src="\files\images\desktopIcons.svg" />
+          <img class="fadeIn" id="mobileHeroImg" alt="Hero Image" src="\files\images\mobileIcons.svg" />
+        </div>
+      </div>
+    </section>
+    </div>
+    <!-- services section -->
+    <section id="services">
+      <div class="content">
+      <h2 id="servicesHeading" class="heading fadeIn">Our Services</h2>
+      <!-- <ul id="list" class="list fadeIn">
+        <li id="liHeight" class="pos0">
+          <div id="servicesHeader">
+            <img id="servicesImg" alt="Services Image" src="\files\images\battery.svg" />
+            <h2 class="subHeading">Batteries</h2>
+          </div>
+          <p id=servicesPara class="sentence">Test text goes here to describe this list item.</p>
+        </li>
+        <li class="pos1">
+          <div id="servicesHeader">
+            <img id="servicesImg" alt="Services Image" src="\files\images\spanner.svg" />
+            <h2 class="subHeading">Servicing</h2>
+          </div>
+          <p id=servicesPara class="sentence">Test text goes here to describe this list item.</p>
+        </li>
+        <li class="pos2">
+          <div id="servicesHeader">
+            <img id="servicesImg" alt="Services Image" src="\files\images\car.svg" />
+            <h2 class="subHeading">Repairs</h2>
+          </div>
+          <p id=servicesPara class="sentence">Test text goes here to describe this list item.</p>
+        </li>
+        <li class="pos3">
+          <div id="servicesHeader">
+            <img id="servicesImg" alt="Services Image" src="\files\images\tyres.svg" />
+            <h2 class="subHeading">Tyres</h2>
+          </div>
+          <p id=servicesPara class="sentence">Test text goes here to describe this list item.</p>
+        </li>
+        <div id="carouselNavigation">
+          <div id="left"></div>
+          <div id="right"></div>
+        </div>
+      </ul> -->
+     <div class="itemsGrid">
+      <div class="servicesGridItem fadeIn">
+        <div id="servicesHeader">
+          <img id="servicesImg" alt="Services Image" src="\files\images\spanner.svg" />
+          <h2 class="subHeading">Servicing</h2>
+        </div>
+        <p id=servicesPara class="sentence">Filters<br>Brake Fluid Change<br>Brake Pads<br>Engine Oil Change<br>Gearbox Oil Change<br>Cambelts<br>Cooling Fluid<br>DPF Clean<br>Drivebelts</p>
+      </div>
+      <div class="servicesGridItem fadeIn">
+        <div id="servicesHeader">
+          <img id="servicesImg" alt="Services Image" src="\files\images\car.svg" />
+          <h2 class="subHeading">Repairs</h2>
+        </div>
+        <p id=servicesPara class="sentence">Alternators<br>Starter Motors<br>Suspension<br>Exhaust Systems<br>Coolant Systems</p>
+      </div>
+      <div class="servicesGridItem fadeIn">
+        <div id="servicesHeader">
+          <img id="servicesImg" alt="Services Image" src="\files\images\diagnostics.svg" />
+          <h2 class="subHeading">Diagnostics</h2>
+        </div>
+        <p id=servicesPara class="sentence">OBD Diagnostics<br>Troubleshooting</p>
+      </div>
+      <div class="servicesGridItem fadeIn">
+        <div id="servicesHeader">
+          <img id="servicesImg" alt="Services Image" src="\files\images\battery.svg" />
+          <h2 class="subHeading">Batteries</h2>
+        </div>
+        <p id=servicesPara class="sentence">Battery Replacements<br>Battery testing with report</p>
+      </div>
+      <div class="servicesGridItem fadeIn">
+        <div id="servicesHeader">
+          <img id="servicesImg" alt="Services Image" src="\files\images\tyres.svg" />
+          <h2 class="subHeading">Tyres</h2>
+        </div>
+        <p id=servicesPara class="sentence">Tyre Change<br>Tyre Condition Check<br>Flat Tyre Evaluation</p>
+      </div>
+  </div>
+    </section>
+
+    <!-- company info section (opening hours etc) -->
+    <section id="companyInfo">
+      <div class="content">
+      <h2 id="companyHeading" class="heading fadeIn">Established 2020</h2>
+      <p id="companySentence" class="sentence fadeIn">Founded in Yeovil, Somerset - Mobile Car Mechanic South West offers professional and reliable services across a 30 mile radius spanning Somerset, Dorset and Mendip. We are fully insured and have more than 30 years of experience.<br><br>We travel to your location to diagnose and repair your vehicle, saving you the time and hassle of going to a traditional garage. We are equipped with the latest tools and technology to handle a wide range of repair and maintenance services for any situation.<br><br>With our competitive prices and exceptional customer service, we are your go-to choice for all of your car care needs!</p>
+      <div class="galleryGrid">
+      <div class="galleryGridItem fadeIn">
+        <img class="galleryImg" src="\files\images\blackEvoque.webp" alt="Example Work Image" />
+      </div>
+      <div class="galleryGridItem fadeIn">
+        <img class="galleryImg" src="\files\images\redVan.webp" alt="Example Work Image" />
+      </div>
+      <div class="galleryGridItem wideImage1 fadeIn">
+        <img class="galleryImg" src="\files\images\blackCmax.webp" alt="Example Work Image" />
+      </div>
+      <div class="galleryGridItem fadeIn">
+        <img class="galleryImg" src="\files\images\blackPickup.webp" alt="Example Work Image" />
+      </div>
+      <div class="galleryGridItem fadeIn">
+        <img class="galleryImg" src="\files\images\greyVolvo.webp" alt="Example Work Image" />
+      </div>
+      </div>
+      <div id="divider" class="fadeIn">
+        <div class="bar"></div>
+        <img class="dividerImg" alt="Image of Car" src="\files\images\car.svg" />
+        <div class="bar"></div>
+      </div>
+    </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact">
+      <div class="content">
+      <h2 id="contactHeading" class="heading fadeIn">Contact Us</h2>
+      <p class="sentence">Have an enquiry? - We can be contacted via our number or our Facebook page!</p>
+      <div class="itemsGrid">
+      <div class="servicesGridItem fadeIn">
+        <div id="servicesHeader">
+          <img id="servicesImg" alt="Services Image" src="\files\images\phone.svg" />
+          <h2 class="subHeading">Call now</h2>
+        </div>
+      <p id="servicesPara" class="sentence fadeIn">Give us a call on: <a href="tel:07400006184">07400-006-184</a></p>
+      </div>
+      <div class="servicesGridItem fadeIn">
+        <div id="servicesHeader">
+          <img id="servicesImg" alt="Services Image" src="\files\images\facebook.svg" />
+          <h2 class="subHeading">Facebook</h2>
+        </div>
+      <p id="servicesPara" class="sentence fadeIn">Visit our <a href="https://www.facebook.com/Automotiverepairsyeovil">Facebook page</a></p>
+      </div>
+      <div class="servicesGridItem fadeIn">
+        <div id="servicesHeader">
+          <img id="servicesImg" alt="Services Image" src="\files\images\openingHours.svg" />
+          <h2 class="subHeading">Opening Hours</h2>
+        </div>
+      <p id="servicesPara" class="sentence fadeIn">Mon-Sat: 09:00 till 17:00<br>Sun: Closed</p>
+        </div>
+    </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section id="footer">
+      <div class="content footerNoPadding">
+      <h2 id="footerHeading" class="companyText">©Mobile Car Mechanic South West</h2>
+      <div class="itemsGrid">
+        <div class="footerGridItem">
+          <h2 id="footerHeading"><a href="tel:07400006184">07400-006-184</a></h2>
+        </div>
+        <div class="footerGridItem">
+          <h2 id="footerHeading"><a href="#" target="_blank">Cookie Policy</a></h2>
+        </div>
+        <div class="footerGridItem">
+          <h2 id="footerHeading"><a href="#">Privacy Policy</a></h2>
+        </div>
+        <div class="footerGridItem">
+          <h2 id="footerHeading">Website by <a href="https://matt54633.com" target="_blank">Matt Sullivan</a></h2>
+        </div>
+      </div>
+      </div>
+    </section>
+  </body>
+</html>

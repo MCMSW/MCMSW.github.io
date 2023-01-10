@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 479 479" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <clipPath id="_clip1">
+        <rect id="store-timings-svgrepo-com.svg" x="0.445" y="0.804" width="477.819" height="477.819"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <path d="M333.324,429.405L71.655,429.405C58.239,429.732 46.911,419.008 46.502,405.594L46.502,191.044" style="fill:none;fill-rule:nonzero;stroke:rgb(238,238,238);stroke-width:25.15px;"/>
+        <path d="M381.953,192.469L381.953,284.779" style="fill:none;fill-rule:nonzero;stroke:rgb(238,238,238);stroke-width:25.15px;"/>
+        <path d="M166.06,428.819L166.06,285.701L263.149,285.701L263.149,428.819" style="fill:none;fill-rule:nonzero;stroke:rgb(238,238,238);stroke-width:25.15px;"/>
+        <path d="M16.739,124.054C16.739,124.054 7.516,189.116 70.816,199.512C89.542,202.318 108.531,196.092 121.96,182.744C133.726,195.239 150.148,202.332 167.311,202.332C185.261,202.332 202.363,194.573 214.186,181.067C224.875,193.252 239.941,200.755 256.106,201.943C273.893,200.511 290.962,194.28 305.489,183.917C315.623,194.933 329.768,201.43 344.727,201.943C344.8,201.944 344.874,201.944 344.948,201.944C381.743,201.944 412.021,171.666 412.021,134.87C412.021,131.219 411.723,127.574 411.129,123.971L371.724,39.207C370.526,35.895 367.364,33.675 363.843,33.673L63.271,33.673C59.749,33.675 56.587,35.895 55.39,39.207L16.739,124.054Z" style="fill:none;fill-rule:nonzero;stroke:rgb(238,238,238);stroke-width:25.15px;"/>
+        <path d="M16.739,124.054L411.549,124.054" style="fill:none;fill-rule:nonzero;stroke:rgb(238,238,238);stroke-width:25.15px;"/>
+        <path d="M122.379,124.054L122.379,33.673" style="fill:none;fill-rule:nonzero;stroke:rgb(238,238,238);stroke-width:25.15px;"/>
+        <path d="M214.605,124.054L214.605,33.673" style="fill:none;fill-rule:nonzero;stroke:rgb(238,238,238);stroke-width:25.15px;"/>
+        <path d="M306.579,124.054L306.579,33.673" style="fill:none;fill-rule:nonzero;stroke:rgb(238,238,238);stroke-width:25.15px;"/>
+        <circle cx="381.953" cy="365.267" r="80.488" style="fill:none;stroke:rgb(238,238,238);stroke-width:25.15px;"/>
+        <path d="M381.953,314.039L381.953,367.782L411.884,390.755" style="fill:none;fill-rule:nonzero;stroke:rgb(238,238,238);stroke-width:25.15px;"/>
+    </g>
+</svg>

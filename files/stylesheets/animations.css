@@ -1,0 +1,71 @@
+/* gradient keyframes */
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* animations */
+
+/* hidden settings */
+
+.fadeDown,
+.fadeLeft,
+.fadeMiddle,
+.fadeIn {
+    opacity: 0;
+}
+
+
+/* show settings */
+
+.fadeDownShow,
+.fadeLeftShow,
+.fadeMiddleShow,
+.fadeInShow {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+
+/* fade down */
+
+.fadeDown {
+    transform: translateY(-100%);
+}
+.fadeDownShow {
+    transform: translateY(0);
+}
+
+
+/* fade left */
+
+.fadeLeft {
+    transform: translateX(-100%);
+}
+.fadeLeftShow {
+    transform: translateX(0);
+}
+
+
+/* fade middle */
+
+.fadeMiddle {
+    transform: scale(0);
+}
+.fadeMiddleShow {
+    transform: scale(1);
+}
+
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
