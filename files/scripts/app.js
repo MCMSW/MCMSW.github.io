@@ -10,12 +10,6 @@ const animationObserver = new IntersectionObserver((entries) => {
 const fadeElements = document.querySelectorAll(".fadeIn");
 fadeElements.forEach((el) => animationObserver.observe(el));
 
-function clearForm() {
-  document.getElementById('name').value = "";
-  document.getElementById('email').value = "";
-  document.getElementById('message').value = "";
-}
-
 function scrollToElement(element, offset) {
   window.scrollTo({
     behavior: "smooth",
