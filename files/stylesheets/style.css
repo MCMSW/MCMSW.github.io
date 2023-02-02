@@ -406,7 +406,7 @@ input:hover, textarea:hover {
     height: auto;
   }
   .itemsGrid {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   }
   #servicesImg {
     width: clamp(1.5rem, 1.5vw + 1.5rem, 2.5rem);
