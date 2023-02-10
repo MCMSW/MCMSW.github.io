@@ -35,3 +35,6 @@ function headerText() {
     document.getElementById('navHeading').textContent = 'Mobile Car Mechanic South West';
   }
 }
+
+let footerCopyright = document.querySelector('.companyText');
+footerCopyright.textContent = '©Mobile Car Mechanic South West - ' + new Date().getFullYear();
