@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 /* custom scrollbar */
 
@@ -7,8 +7,9 @@
 }
 
 @font-face {
-  font-family: 'Harlekin';
-  src: url('/files/fonts/Harlekin.woff2') format('woff2'), url('/files/fonts/Harlekin.woff') format('woff');
+  font-family: "Harlekin";
+  src: url("/files/fonts/Harlekin.woff2") format("woff2"),
+    url("/files/fonts/Harlekin.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -21,8 +22,8 @@
   --dark-blue-colour: #0a2540;
   --translucent-text-colour: #adbdcc;
   --magic-number: 0.03496340597;
-	--content-width: 100vw;
-	--skew-padding: calc(var(--content-width) * var(--magic-number));
+  --content-width: 100vw;
+  --skew-padding: calc(var(--content-width) * var(--magic-number));
   --half-skew-padding: calc((var(--skew-padding) / 2));
   --double-skew-padding: calc((var(--skew-padding) * 2));
 }
@@ -45,7 +46,7 @@ body {
 }
 #navHeroContainer {
   background-size: 300%;
-  background-color: #21D4FD;
+  background-color: #21d4fd;
   background-image: linear-gradient(-45deg, #6952ee, #1d85e6, #38a2ef, #23ccd5);
   transform: skewY(-4deg);
   margin-top: -7rem;
@@ -59,10 +60,11 @@ nav {
 }
 #navHeading {
   padding: 0 0 0 12.5vw;
-  margin: clamp(5rem, 6vw + 5rem, 8.5rem) 0 clamp(0.3rem, 0.3vw + 0.3rem, 0.8rem) 0;
-  font-size: clamp(1rem, 1.25vw + 1rem, 2rem);
+  margin: clamp(5rem, 6vw + 5rem, 8.5rem) 0
+    clamp(0.3rem, 0.3vw + 0.3rem, 0.8rem) 0;
+  font-size: clamp(0.9rem, 1.125vw + 0.9rem, 1.8rem);
   font-weight: 500;
-  font-family: 'Harlekin';
+  font-family: "Harlekin";
   color: var(--white-colour);
 }
 .ctaLink {
@@ -81,20 +83,21 @@ nav {
 }
 .ctaLink h2 {
   margin: 0;
-  padding: clamp(0.3rem, 0.3vw + 0.3rem, 0.4rem) clamp(0.6rem, 0.75vw + 0.75rem, 1rem);
-  font-size: clamp(0.5rem, 0.75vw + 0.5rem, 1.1rem);
+  padding: clamp(0.3rem, 0.3vw + 0.3rem, 0.4rem)
+    clamp(0.6rem, 0.75vw + 0.75rem, 1rem);
+  font-size: clamp(0.45rem, 0.675vw + 0.45rem, 0.99rem);
   text-align: center;
   font-weight: 600;
 }
 section {
-    padding: clamp(1.5rem, 1vw + 1rem, 3rem) 12.5vw;
-    align-items: center;
-    transform: skewY(-4deg);
+  padding: clamp(1.5rem, 1vw + 1rem, 3rem) 12.5vw;
+  align-items: center;
+  transform: skewY(-4deg);
 }
 #hero {
-  display: grid; 
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 1fr; 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
   gap: 0px 0px;
   color: var(--white-colour);
 }
@@ -110,7 +113,7 @@ section {
   grid-area: 1 / 1 / 3 / 2;
   transform: skewY(4deg);
 }
-#imageColumn { 
+#imageColumn {
   padding: 0 0 var(--skew-padding) 0;
   grid-area: 1 / 2 / 3 / 3;
   display: flex;
@@ -121,7 +124,7 @@ section {
   display: flex;
 }
 .heading {
-  font-size: clamp(1.2rem, 1.2vw + 1rem, 2rem);
+  font-size: clamp(1.08rem, 1.08vw + 0.9rem, 1.8rem);
   width: 100%;
   font-weight: 700;
   margin: 0;
@@ -129,11 +132,11 @@ section {
 }
 .subHeading {
   font-weight: 600;
-  font-size: clamp(0.8rem, 1vw  + 0.7rem, 1.5rem);
+  font-size: clamp(0.72rem, 0.9vw + 0.63rem, 1.35rem);
   color: var(--white-colour);
 }
 .sentence {
-  font-size: clamp(0.5rem, 0.75vw + 0.5rem, 1.1rem);
+  font-size: clamp(0.45rem, 0.675vw + 0.45rem, 0.99rem);
   font-weight: 500;
   width: 100%;
   color: var(--white-colour);
@@ -155,7 +158,7 @@ section {
   font-weight: 700;
 }
 #heroHeading {
-  font-size: clamp(1.5rem, 1.8vw + 1rem, 3rem);
+  font-size: clamp(1.35rem, 1.62vw + 0.9rem, 2.7rem);
   line-height: 125%;
 }
 #heroSentence {
@@ -170,12 +173,14 @@ section {
 #mobileHeroImg {
   display: none;
 }
-#services, #contact {
+#services,
+#contact {
   background: var(--dark-blue-colour);
 }
 .itemsGrid {
   width: 100%;
-  margin: clamp(1rem, 1vw + 0.5rem, 1.5rem) auto clamp(1rem, 1vw + 0.5rem, 1.5rem) auto;
+  margin: clamp(1rem, 1vw + 0.5rem, 1.5rem) auto
+    clamp(1rem, 1vw + 0.5rem, 1.5rem) auto;
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -186,43 +191,45 @@ section {
   color: var(--white-colour);
   transition: all 0.25s;
   border: 2.5px solid var(--blue-colour);
-  transform: scale(1.0);
+  transform: scale(1);
 }
-.servicesGridItem:hover, .galleryGridItem:hover {
+.servicesGridItem:hover,
+.galleryGridItem:hover {
   transform: scale(1.025);
 }
 .galleryImg {
   width: 100%;
   height: 100%;
   border-radius: 15px;
-  object-fit: cover; 
+  object-fit: cover;
 }
 .galleryGrid {
   align-self: flex-start;
   width: min(1024px, 100%);
-  margin: clamp(1rem, 1vw + 0.5rem, 1.5rem) 0 clamp(1rem, 1vw + 0.5rem, 1.5rem) 0;
+  margin: clamp(1rem, 1vw + 0.5rem, 1.5rem) 0 clamp(1rem, 1vw + 0.5rem, 1.5rem)
+    0;
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr; 
-  grid-template-areas: 
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
     ". ."
     "wideImage1 wideImage1"
     ". ."
-    "wideImage2 wideImage2"; 
+    "wideImage2 wideImage2";
 }
-.wideImage1 { 
+.wideImage1 {
   grid-area: wideImage1;
 }
-.wideImage2 { 
+.wideImage2 {
   grid-area: wideImage2;
 }
 .galleryGridItem {
   border-radius: 15px;
   color: var(--white-colour);
   transition: all 0.25s;
-  transform: scale(1.0);
-  height: clamp(7.5rem, 5vw + 5rem, 10rem);
+  transform: scale(1);
+  height: clamp(6.75rem, 4.5vw + 4.5rem, 9rem);
 }
 #servicesHeader {
   display: flex;
@@ -237,10 +244,11 @@ section {
   color: var(--translucent-text-colour);
 }
 #servicesImg {
-  width: clamp(1.5rem, 1.5vw + 1.25rem, 2.25rem);
+  width: clamp(1.35rem, 1.35vw + 1.125rem, 2.025rem);
   height: auto;
 }
-#companyInfo h2, #companyInfo p {
+#companyInfo h2,
+#companyInfo p {
   color: var(--dark-blue-colour);
 }
 #divider {
@@ -254,47 +262,52 @@ section {
 }
 .bar {
   width: 100%;
-  height: clamp(0.25rem, 0.25vw + 0.25rem, 0.4rem);
+  height: clamp(0.225rem, 0.225vw + 0.225rem, 0.36rem);
   background-color: var(--blue-colour);
   border-radius: 50px;
 }
 .dividerImg {
-  width: clamp(1rem, 1vw + 1rem, 1.6rem);
+  width: clamp(0.9rem, 0.9vw + 0.9rem, 1.44rem);
   height: auto;
   padding: clamp(0.3rem, 0.5vw + 0.5rem, 0.5rem);
   background-color: var(--blue-colour);
   border-radius: 100px;
 }
-label, input, textarea, button {
-  font-size: clamp(0.5rem, 0.75vw + 0.5rem, 1.1rem);
+label,
+input,
+textarea,
+button {
+  font-size: clamp(0.45rem, 0.675vw + 0.45rem, 0.99rem);
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   resize: none;
   display: block;
   box-sizing: border-box;
 }
 label {
-  margin:clamp(1rem, 1vw + 0.4rem, 1.8rem) 0 0 0;
+  margin: clamp(1rem, 1vw + 0.4rem, 1.8rem) 0 0 0;
   font-weight: 600;
   color: var(--translucent-text-colour);
 }
-input, textarea {
+input,
+textarea {
   outline: none;
   border: 2.5px solid transparent;
   background: var(--blue-colour);
   border-radius: 15px;
   color: var(--white-colour);
   padding: clamp(0.3rem, 0.3vw + 0.3rem, 0.8rem);
-  margin:  clamp(0.3rem, 0.3vw + 0.3rem, 0.8rem) 0;
+  margin: clamp(0.3rem, 0.3vw + 0.3rem, 0.8rem) 0;
   width: clamp(50%, 80%, 750px);
   transition: border 0.25s;
 }
-input:hover, textarea:hover {
+input:hover,
+textarea:hover {
   border: 2.5px solid var(--white-colour);
 }
 #submitButton {
   background: var(--blue-colour);
-  margin:  clamp(1rem, 1vw + 0.4rem, 1.8rem) 0 0 0;
+  margin: clamp(1rem, 1vw + 0.4rem, 1.8rem) 0 0 0;
 }
 ::placeholder {
   color: var(--white-colour);
@@ -316,15 +329,15 @@ input:hover, textarea:hover {
   border-bottom: 2.5px solid var(--blue-colour);
 }
 #footerHeading {
-    font-size: clamp(0.5rem, 0.5vw + 0.5rem, 1rem);
-    font-weight: 500;
-    color: var(--dark-blue-colour);
-    text-align: left;
-    margin: clamp(0.3rem, 0.3vw + 0.3rem, 0.8rem) 0;
+  font-size: clamp(0.45rem, 0.45vw + 0.45rem, 0.9rem);
+  font-weight: 500;
+  color: var(--dark-blue-colour);
+  text-align: left;
+  margin: clamp(0.3rem, 0.3vw + 0.3rem, 0.8rem) 0;
 }
 .companyText {
   margin: 0 !important;
-  text-align: left!important;
+  text-align: left !important;
   font-weight: 700 !important;
 }
 #footer a,
@@ -356,7 +369,8 @@ input:hover, textarea:hover {
     font-size: clamp(0.5rem, 1vw + 0.75rem, 1.2rem);
   }
   .ctaLink h2 {
-    padding: clamp(0.4rem, 0.4vw + 0.4rem, 0.5rem) clamp(0.6rem, 0.7vw + 0.7rem, 0.9rem);
+    padding: clamp(0.4rem, 0.4vw + 0.4rem, 0.5rem)
+      clamp(0.6rem, 0.7vw + 0.7rem, 0.9rem);
     font-size: clamp(0.5rem, 1vw + 0.75rem, 1.2rem);
   }
   .ctaLink:active {
@@ -367,17 +381,17 @@ input:hover, textarea:hover {
   }
   .heading {
     width: 80%;
-    font-size: clamp(1.6rem, 1.5vw + 1rem, 3rem);
+    font-size: clamp(1.6rem, 1.5vw + 1rem, 2rem);
   }
   .subHeading {
-    font-size: clamp(1rem, 1.4vw  + 1rem, 1.6rem);
+    font-size: clamp(1rem, 1.4vw + 1rem, 1.6rem);
   }
   .sentence {
     font-size: clamp(0.5rem, 1vw + 0.75rem, 1.2rem);
     width: 100%;
   }
   #hero {
-    display: flex; 
+    display: flex;
     flex-direction: column;
   }
   .content {
@@ -385,7 +399,7 @@ input:hover, textarea:hover {
   }
   #imageColumn {
     align-self: flex-start;
-    padding:  clamp(1rem, 1vw + 1rem, 2rem) 0 var(--skew-padding) 0;
+    padding: clamp(1rem, 1vw + 1rem, 2rem) 0 var(--skew-padding) 0;
     width: min(100%, 400px);
   }
   #heroHeading {
@@ -413,32 +427,40 @@ input:hover, textarea:hover {
     width: clamp(1.5rem, 1.5vw + 1.5rem, 2.5rem);
   }
   .galleryGrid {
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
-  input:hover, textarea:hover {
+  input:hover,
+  textarea:hover {
     border: 2.5px solid transparent;
   }
-  input:active, textarea:active {
+  input:active,
+  textarea:active {
     border: 2.5px solid var(--dark-blue-colour);
   }
-  label, input, textarea, button {
+  label,
+  input,
+  textarea,
+  button {
     font-size: clamp(0.5rem, 1vw + 0.75rem, 1.2rem);
   }
   label {
-    margin:clamp(1rem, 1.2vw + 1rem, 1.8rem) 0 clamp(0.5rem, 1vw + 0.5rem, 1.5rem) 0;
+    margin: clamp(1rem, 1.2vw + 1rem, 1.8rem) 0
+      clamp(0.5rem, 1vw + 0.5rem, 1.5rem) 0;
   }
-  input, textarea {
+  input,
+  textarea {
     padding: clamp(0.7rem, 0.7vw + 0.3rem, 1.4rem);
-    margin:  clamp(0.3rem, 0.3vw + 0.3rem, 0.8rem) 0;
+    margin: clamp(0.3rem, 0.3vw + 0.3rem, 0.8rem) 0;
     width: 100%;
   }
   #submitButton {
-    margin:  clamp(1rem, 1.2vw + 1rem, 1.8rem) 0 0 0;
+    margin: clamp(1rem, 1.2vw + 1rem, 1.8rem) 0 0 0;
   }
   #footer {
     margin-bottom: clamp(-2.5rem, -2.5vw + 2.5rem, -6rem);
-    padding: clamp(1rem, 0.5vw + 0.5rem, 2rem) 5vw clamp(1rem, 0.5vw + 0.5rem, 2rem) 5vw;
+    padding: clamp(1rem, 0.5vw + 0.5rem, 2rem) 5vw
+      clamp(1rem, 0.5vw + 0.5rem, 2rem) 5vw;
   }
   .footerNoPadding {
     padding: var(--double-skew-padding) 0 0 0 !important;
@@ -449,11 +471,16 @@ input:hover, textarea:hover {
 }
 
 /* prevent hover on touchscreens */
-@media(hover: none) {
-  .ctaLink:hover, #heroLink:hover, input:hover, textArea:hover, #submitButton:hover {
+@media (hover: none) {
+  .ctaLink:hover,
+  #heroLink:hover,
+  input:hover,
+  textArea:hover,
+  #submitButton:hover {
     border: none;
   }
-  .servicesGridItem:hover, .galleryGridItem:hover {
-    transform: scale(1.0);
+  .servicesGridItem:hover,
+  .galleryGridItem:hover {
+    transform: scale(1);
   }
 }
